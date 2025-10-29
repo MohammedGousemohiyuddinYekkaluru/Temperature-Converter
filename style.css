@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#temp-container{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1{
+    background-color: #222288;
+    padding: 20px;
+    color: #fff;
+}
+
+#temp-container input{
+    width: 90%;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
